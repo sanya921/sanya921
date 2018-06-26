@@ -1,7 +1,5 @@
-Attribute VB_Name = "NewMacros9"
+Attribute VB_Name = "NewMacros"
 Sub Macros()
-    
-    'Установки для курсача
     Selection.Font.Name = "Times New Roman"
     Selection.Font.Size = 14
     Selection.ParagraphFormat.Alignment = wdAlignParagraphJustify
@@ -12,8 +10,6 @@ Sub Macros()
         .LeftMargin = CentimetersToPoints(2)
         .RightMargin = CentimetersToPoints(2)
     End With
-   
-    'Ставиться пробел после знака пунктуации
     With Selection.Find
         .Text = "([.,:;\!\?])"
         .Replacement.Text = "\1"
@@ -29,5 +25,4 @@ Sub Macros()
     Selection.Find.Execute Replace:=wdReplaceAll
     Selection.MoveLeft Unit:=wdCharacter, Count:=1
     Selection.MoveDown Unit:=wdLine, Count:=1
-
 End Sub
