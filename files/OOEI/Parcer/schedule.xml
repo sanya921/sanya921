@@ -1,0 +1,180 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<?xml-stylesheet type="text/css" href="main.css"?>
+<TimeTable>
+	<TMonth>
+		<month>Розклад відвідування практики</month>
+		<NumWeek>
+		<week>18.05.2018 - 25.05.2018</week>
+			<TableDay>
+				<weekDay>П'ятниця</weekDay>
+				<Data>18.05.2018</Data>
+				<schedule>
+					<LNum>1 урок</LNum>
+					<LName>Засоби КІС</LName>
+					<LTheme>Форм-фактори материнських плат.</LTheme>
+					<Group>гр.ОП1-16</Group>
+					<auditory>каб.35</auditory>
+					<employee>
+						<lastName>Іванов</lastName>
+						<firstName>О.</firstName>
+						<middleName>О.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>2 урок</LNum>
+					<LName>Засоби КІС</LName>
+					<LTheme>Інтерфейси та шини ПК</LTheme>
+					<Group>гр.ОП1-16</Group>
+					<auditory>каб.35</auditory>
+					<employee>
+						<lastName>Іванов</lastName>
+						<firstName>О.</firstName>
+						<middleName>О.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>3,4 уроки</LNum>
+					<LName>Інформаційні технології</LName>
+					<LTheme>Використання інформаційних систем для розрахунків  параметрів роботи електричних мереж</LTheme>
+					<Group>гр. Е1-17</Group>
+					<auditory>каб.34</auditory>
+					<employee>
+						<lastName>Новікова</lastName>
+						<firstName>Т.</firstName>
+						<middleName>М.</middleName>
+					</employee>
+				</schedule>
+			</TableDay>
+			<TableDay>
+				<weekDay>Субота</weekDay>
+				<Data>19.05.2018</Data>
+				<schedule>
+					<LNum>Вихідний</LNum>
+				</schedule>
+			</TableDay>
+			<TableDay>
+				<weekDay>Неділя</weekDay>
+				<Data>20.05.2018</Data>
+				<schedule>
+					<LNum>Вихідний</LNum>
+				</schedule>
+			</TableDay>
+			<TableDay>
+				<weekDay>Понеділок</weekDay>
+				<Data>21.05.2018</Data>
+				<schedule>
+					<LNum>1,2 уроки</LNum>
+					<LName>Технології обробки інформації</LName>
+					<LTheme>Використання відоефектів при монтажу відео (практична робота)</LTheme>
+					<Group>гр.ОП1-16</Group>
+					<auditory>каб.31</auditory>
+					<employee>
+						<lastName>Єфремова</lastName>
+						<firstName>О.</firstName>
+						<middleName>Л.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>5,6 уроки</LNum>
+					<LName>Інформатика</LName>
+					<LTheme>Веб-інциклопедії. Освітні сайти. Інтерактивне дистанційне навчання</LTheme>
+					<Group>гр. З1-17</Group>
+					<auditory>каб.34</auditory>
+					<employee>
+						<lastName>Новікова</lastName>
+						<firstName>Т.</firstName>
+						<middleName>М.</middleName>
+					</employee>
+				</schedule>
+			</TableDay>
+			<TableDay>
+				<weekDay>Вівторок</weekDay>
+				<Data>22.05.2018</Data>
+				<schedule>
+					<LNum>3,4 уроки</LNum>
+					<LName>Інформатика</LName>
+					<LTheme>Створення таблиць БД. Визначення властивостей полів. Створення звітів в атоматичному режиі.</LTheme>
+					<Group>гр. Н1-16</Group>
+					<auditory>каб.34</auditory>
+					<employee>
+						<lastName>Новікова</lastName>
+						<firstName>Т.</firstName>
+						<middleName>М.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>7,8 уроки</LNum>
+					<LName>Основи алгоритмізації та програмування</LName>
+					<LTheme>Робота з графікою при створенні програмного додатка </LTheme>
+					<Group>гр.ОП1-17</Group>
+					<auditory>(бібліотека, електр.читальний зал)</auditory>
+					<employee>
+						<lastName>Іванов</lastName>
+						<firstName>О.</firstName>
+						<middleName>О.</middleName>
+					</employee>
+				</schedule>
+			</TableDay>
+			<TableDay>
+				<weekDay>Середа</weekDay>
+				<Data>23.05.2018</Data>
+				<schedule>
+					<LNum>1,2 уроки</LNum>
+					<LName>Інформаційні технології</LName>
+					<LTheme>Підсумкове занняття</LTheme>
+					<Group>гр. E1-17</Group>
+					<auditory>каб.34</auditory>
+					<employee>
+						<lastName>Новікова</lastName>
+						<firstName>Т.</firstName>
+						<middleName>М.</middleName>
+					</employee>
+				</schedule>
+			</TableDay>
+			<TableDay>
+				<weekDay>Четверг</weekDay>
+				<Data>24.05.2018</Data>
+				<schedule>
+					<LNum>5,6 уроки</LNum>
+					<LName>Інформатика</LName>
+					<LTheme>Електронні словники і перекадачі. Інтерактивні курси іноземних мов.</LTheme>
+					<Group>гр. Н1-17</Group>
+					<auditory>каб.34</auditory>
+					<employee>
+						<lastName>Новікова</lastName>
+						<firstName>Т.</firstName>
+						<middleName>М.</middleName>
+					</employee>
+				</schedule>
+			</TableDay>
+			<TableDay>
+				<weekDay>П'ятниця</weekDay>
+				<Data>25.05.2018</Data>
+				<schedule>
+					<LNum>1 урок</LNum>
+					<LName>Основи комп’ютерної графіки та веб-дизайну.</LName>
+					<LTheme>Інсталяція програми тривимірної графіки (практична робота)</LTheme>
+					<Group>гр.ОП1-16</Group>
+					<auditory>(бібліотека, електр.читальний зал)</auditory>
+					<employee>
+						<lastName>Іванов</lastName>
+						<firstName>О.</firstName>
+						<middleName>О.</middleName>
+					</employee>
+				</schedule>
+				<schedule>
+					<LNum>2 урок</LNum>
+					<LName>Основи комп’ютерної графіки та веб-дизайну.</LName>
+					<LTheme>Креслення ліній, дуг, багатокутників</LTheme>
+					<Group>гр.ОП1-16</Group>
+					<auditory>(бібліотека, електр.читальний зал)</auditory>
+					<employee>
+						<lastName>Іванов</lastName>
+						<firstName>О.</firstName>
+						<middleName>О.</middleName>
+					</employee>
+				</schedule>
+			</TableDay>
+		</NumWeek>
+	</TMonth>
+</TimeTable>

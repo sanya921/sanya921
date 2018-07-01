@@ -1,0 +1,62 @@
+TimeTable{
+    opacity: 0.85;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+	font-weight: 300;
+	height: 100%;
+	line-height: 1.5;
+	position: relative;
+}
+
+TMonth{
+	background: linear-gradient(to bottom, #fcfcfc, #f6f6f6) repeat-x scroll 0 0;
+    border: 3px solid #ddd;
+	display: block;
+    border-radius: 7px;
+    margin: 5em auto;
+    max-width: 1280px;
+    min-height: 600px;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s ease 0s;
+    padding: 5px;
+}
+
+NumWeek{
+	display: block;
+}
+
+month, week{
+	display: block;
+	text-align: center;
+	font-size: 18px;
+}
+
+TableDay{
+	display:inline-table;
+	width: 148px;
+	margin-left: 2px;
+	border: 1px solid #ddd;
+	transition: all 1s ease 0s;
+	padding: 2px;
+}
+
+schedule{
+	text-align: center;
+	display: block;
+	background: #4286f4;
+    border: 1px solid #ddd;
+}
+
+weekDay, Data, Group, auditory, LNum, LTheme , LName, employee{
+	display: block;
+}
+
+weekDay, Data{
+	text-align: center;
+	background: #7FFFD4;
+}
+
+LTheme{
+	background: #778899;
+	border: 1px solid #ddd;
+}
