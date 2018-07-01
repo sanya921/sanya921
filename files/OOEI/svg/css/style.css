@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(img.jpg);
+}
+
+.text {
+  color: #5389e0;
+  font-weight: 100;
+  font-size: .8em;
+  padding: 5px;
+}
+
+.text.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1.5em;
+}
+
+svg {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 15px;
+}
+
+svg.blur {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+path {
+  stroke: #5389e0;
+  stroke-width: 1px;
+  fill: none;
+  -webkit-animation: morph 15s infinite cubic-bezier(0.34, 1.61, 0.7, 1);
+          animation: morph 15s infinite cubic-bezier(0.34, 1.61, 0.7, 1);
+}
+
+@-webkit-keyframes morph {
+  0%,
+	7% {
+    d: path("M0,0 L50,0 L50,50 L50,100 L0,100 L0,25 L0,0");
+  }
+  11%,
+	17% {
+    d: path("M50,0 L50,15 L50,30 L50,45 L50,60 L50,75 L50,100");
+  }
+  21%,
+	27% {
+    d: path("M0,0 L50,0 L50,50 L25,50 L0,50 L0,100 L50,100");
+  }
+  31%,
+	37% {
+    d: path("M0,0 L50,0 L50,100 L0,100 L50,100 L50,50 L0,50");
+  }
+  41%,
+	47% {
+    d: path("M0,0 L0,50 L50,50 L50,0 L50,35 L50,70 L50,100");
+  }
+  51%,
+	57% {
+    d: path("M50,0 L0,0 L0,50 L25,50 L50,50 L50,100 L0,100");
+  }
+  61%,
+	67% {
+    d: path("M50,0 L0,0 L0,50 L0,100 L50,100, L50,50 L0,50");
+  }
+  71%,
+	77% {
+    d: path("M0,0 L50,0 L50,20 L50,40 L50,60 L50,80 L50,100");
+  }
+  81%,
+	87% {
+    d: path("M0,0 L50,0 L50,100 L0,100 L0,0 L0,50 L50,50");
+  }
+  91%,
+	96% {
+    d: path("M0,100 L50,100 L50,50 L50,0 L0,0 L0,50 L50,50");
+  }
+}
+
+@keyframes morph {
+  0%,
+	7% {
+    d: path("M0,0 L50,0 L50,50 L50,100 L0,100 L0,25 L0,0");
+  }
+  11%,
+	17% {
+    d: path("M50,0 L50,15 L50,30 L50,45 L50,60 L50,75 L50,100");
+  }
+  21%,
+	27% {
+    d: path("M0,0 L50,0 L50,50 L25,50 L0,50 L0,100 L50,100");
+  }
+  31%,
+	37% {
+    d: path("M0,0 L50,0 L50,100 L0,100 L50,100 L50,50 L0,50");
+  }
+  41%,
+	47% {
+    d: path("M0,0 L0,50 L50,50 L50,0 L50,35 L50,70 L50,100");
+  }
+  51%,
+	57% {
+    d: path("M50,0 L0,0 L0,50 L25,50 L50,50 L50,100 L0,100");
+  }
+  61%,
+	67% {
+    d: path("M50,0 L0,0 L0,50 L0,100 L50,100, L50,50 L0,50");
+  }
+  71%,
+	77% {
+    d: path("M0,0 L50,0 L50,20 L50,40 L50,60 L50,80 L50,100");
+  }
+  81%,
+	87% {
+    d: path("M0,0 L50,0 L50,100 L0,100 L0,0 L0,50 L50,50");
+  }
+  91%,
+	96% {
+    d: path("M0,100 L50,100 L50,50 L50,0 L0,0 L0,50 L50,50");
+  }
+}
