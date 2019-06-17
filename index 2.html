@@ -1,0 +1,39 @@
+﻿<head>
+	<meta charset="UTF-8">
+	<title>2</title>
+</head>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+ <script type="text/javascript">
+ google.load("visualization", "1.1", {packages:["wordtree"]});
+ google.setOnLoadCallback(drawChart);
+ function drawChart() {
+ var data = google.visualization.arrayToDataTable(
+ [ ['Фразы'],
+ ['Уравнение Алгебраическая Система уравнений'],
+ ['Уравнение Степенное Квадратичное'],
+ ['Уравнение Степенное Кубическое'],
+ ['Уравнение Степенное Линейное'],
+ ['Уравнение Степенное Четвертой степени'],
+ ['Уравнение Диофантовое'],
+ ['Уравнение Диференциальное'],
+ ['Уравнение Показательное'],
+ ['Уравнение С параметром'],
+ ['Уравнение Трансцендентное'],
+ ['Уравнение Тригонометрическое'],
+ ['Уравнение Функциональное'],
+ ]
+ );
+ var options = {
+maxFontSize: 18,
+ backgroundColor: '#F7F7F7',
+ wordtree: {
+ format: 'implicit',
+ word: 'Уравнение'
+ }
+ };
+ var chart = new google.visualization.WordTree(document.getElementById('wordtree_basic'));
+ chart.draw(data, options);
+ }
+ </script>
+<div id="wordtree_basic" style="margin-bottom:10px;"></div>
