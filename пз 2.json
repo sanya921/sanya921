@@ -1,0 +1,362 @@
+﻿{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "ru_RU", "uk_UA" ],
+	"title": {
+      "ru_RU": "Семантическая сеть класификаций уравнений",
+	  "uk_UA": "Семантична мережа класифікації рівнянь"
+    },
+    "iri" : "",
+	"version": "0.1.0",
+    "author": [
+      "Yaroslav Slon"
+    ],
+    "description": {
+      "ru_RU": "Семантическая сеть которая отображает класифкацию математических уравнений",
+	  "uk_UA": "Семантична мережа яка показує класифікацію математичних рівнянь"
+    }
+  },
+  "metrics" : {
+    "classCount" : 16,
+    "datatypeCount" : 0,
+    "objectPropertyCount" : 0,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 0,
+    "nodeCount" : 16,
+    "axiomCount" : 31,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "class12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class10",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "Показательные"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Показательные",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class16",
+    "label" : {
+      "IRI-based" : "Четвертой_степени"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Четвертой_степени",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "Функциональные"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Функциональные",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "Тригонометрические"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Тригонометрические",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "Кубические"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Кубические",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "Линейные"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Линейные",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "Дифференциальные"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Дифференциальные",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "Квадратные"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Квадратные",
+    "superClasses" : [ "class14" ],
+    "instances" : 0
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "Трансцендентные"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Трансцендентные",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "Виды_уравнений"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Виды_уравнений",
+    "subClasses" : [ "class10", "class15", "class4", "class7", "class12", "class1", "class5", "class8", "class3" ],
+    "instances" : 0
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "Логарифмические"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Логарифмические",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class15",
+    "label" : {
+      "IRI-based" : "Диофантовые"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Диофантовые",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class14",
+    "label" : {
+      "IRI-based" : "Степенные"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Степенные",
+    "subClasses" : [ "class9", "class6", "class11", "class16" ],
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "С_параметрами"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#С_параметрами",
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "Системы_линейных_уравнений"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Системы_линейных_уравнений",
+    "superClasses" : [ "class10" ],
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "Алгебраические"
+    },
+    "iri" : "http://www.semanticweb.org/yaros/ontologies/2016/5/untitled-ontology-17#Алгебраические",
+    "subClasses" : [ "class2", "class14" ],
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  } ],
+  "property" : [ {
+    "id" : "property9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property12",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class3",
+    "range" : "class13"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class1",
+    "range" : "class13"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class12",
+    "range" : "class13"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class8",
+    "range" : "class13"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class5",
+    "range" : "class13"
+  }, {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class15",
+    "range" : "class13"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class10",
+    "range" : "class13"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class7",
+    "range" : "class13"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class4",
+    "range" : "class13"
+  }, {
+    "id" : "property15",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class14",
+    "range" : "class10"
+  }, {
+    "id" : "property14",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class2",
+    "range" : "class10"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class6",
+    "range" : "class14"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class9",
+    "range" : "class14"
+  }, {
+    "id" : "property13",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class16",
+    "range" : "class14"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Включает"
+    },
+    "domain" : "class11",
+    "range" : "class14"
+  } ]
+}
